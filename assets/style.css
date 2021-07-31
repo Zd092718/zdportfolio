@@ -3,13 +3,56 @@
 }
 
 body {
-
+    background-color: azure;
 }
 
 header {
     display: flex;
+    width: 100%;
+    background-color: rgb(175, 69, 69);
+    margin: 0 -10px;
+}
+/* header h1{
+    
+} */
+
+nav li{
+    margin: 0 10px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
 }
 
-header nav{
-    justify-content: flex-end;
+header nav ul{
+    list-style-type: none;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* #projects h2 {
+    text-align: center;
+
+}
+
+#projects figure{ 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#projects figcaption {
+    text-align: center;
+} */
+
+#projects img {
+    width: 50%;
+    height: 50%;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
 }
