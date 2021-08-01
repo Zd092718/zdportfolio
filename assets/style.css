@@ -12,7 +12,6 @@ header {
     background-color: #3F826D;
     box-shadow: 2px 2px 5px gray;
     border-radius: 25px;
-    /* margin: 10px -10px; */
 }
 header h1{
     margin-left: 20px;
@@ -103,7 +102,6 @@ footer {
         margin-top: 20px;
         background-color: #3F826D;
         font-size: 17px;
-        /* padding: 10px; */
         border-radius: 25px;
         text-align: center;
     }
