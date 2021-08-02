@@ -7,6 +7,7 @@ body {
     background-color: #F2D0A4;
 }
 
+/* Targets entire header section */
 header {
     width: 100%;
     background-color: #3F826D;
@@ -22,6 +23,7 @@ h2 {
     font-size: 30px;
 }
 
+/* Targets nav bar */
 nav li{
     font-size: larger;
     margin-bottom: 30px;
@@ -33,6 +35,8 @@ header nav ul{
     list-style-type: none;
 }
 
+
+/* Targets Projects section */
 #projects {
     margin-bottom: 20px;
 }
@@ -40,7 +44,7 @@ header nav ul{
 #projects h2 {
     text-align: center;
 } 
-
+/* Styles the project images to highlight on hover */
 figure img:hover {
     opacity: 1;
 }
@@ -48,6 +52,8 @@ figure img:hover {
 figure img {
     opacity: .5;
 }
+
+/* Targets project photo captions */
 figure p {
     position: absolute;
     margin-top: 80px;
@@ -58,7 +64,7 @@ figure p {
     text-align: center;
 }
 
-
+/* Resizes project images */
 #project3 img{
     width: 25%;
     height: 25%;
@@ -73,12 +79,13 @@ figure p {
     width: 50%;
     height: 50%;
 }
-
+/* Targets About section */
 #about  {
     background-color: #C03221;
     padding: 30px;
 }
 
+/* Targets Contact Me section */
 #contact {
     background-color: #C03221;
     margin-top: 20px;
@@ -89,6 +96,7 @@ footer {
     padding: 30px;
     text-align: center;
 }
+
 
 @media screen and (max-width: 900px) {
     #projects img{
