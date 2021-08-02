@@ -102,6 +102,9 @@ footer {
     #projects img{
         width: 50%;
     }
+    #project1 img {
+        width: 75%;
+    }
     #projects h2 {
         text-align: left;
     }
@@ -119,6 +122,11 @@ footer {
     #projects img{
         width: 50%;
     }
+
+    #project1 img {
+        width: 75%;
+    }
+    
     #projects h2 {
         text-align: left;
     }
