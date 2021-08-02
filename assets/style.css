@@ -44,13 +44,16 @@ header nav ul{
 #projects h2 {
     text-align: center;
 } 
+
 /* Styles the project images to highlight on hover */
 figure img:hover {
     opacity: 1;
 }
 
+/* Provides project images with base faded opacity and border */
 figure img {
     opacity: .5;
+    border: 10px solid #3F826D;
 }
 
 /* Targets project photo captions */
@@ -62,6 +65,7 @@ figure p {
     padding: 10px;
     border-radius: 25px;
     text-align: center;
+    margin-left: 10px;
 }
 
 /* Resizes project images */
@@ -112,7 +116,7 @@ footer {
         position: absolute;
         margin-top: 20px;
         background-color: #3F826D;
-        font-size: 17px;
+        font-size: 15px;
         border-radius: 25px;
         text-align: center;
     }
