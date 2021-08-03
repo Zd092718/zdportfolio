@@ -132,6 +132,15 @@ footer {
         border-radius: 25px;
         text-align: center;
     }
+    header img {
+        display: inline-block;
+        width: 10%;
+        height: 50%;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 25px;
+        margin-bottom: -20px;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -154,6 +163,15 @@ footer {
         padding: 10px;
         border-radius: 25px;
         text-align: center;
+    }
+    header img {
+        display: inline-block;
+        width: 10%;
+        height: 50%;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 25px;
+        margin-bottom: -20px;
     }
     
 }
