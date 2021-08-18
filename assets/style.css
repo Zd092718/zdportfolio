@@ -18,6 +18,7 @@ header {
     background-color: #3F826D;
     box-shadow: 2px 2px 5px gray;
     border-radius: 25px;
+    margin-top: -40px;
 }
 
 
@@ -75,6 +76,8 @@ header nav ul{
 #about  {
     padding: 30px;
     margin-bottom: 30px;
+    color: white;
+    font-size: 18px;
 }
 
 
@@ -101,7 +104,7 @@ footer {
 }
 
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     #projects img{
         width: 50%;
     }
@@ -122,7 +125,7 @@ footer {
     #projects h2 {
         text-align: left;
     }
-}
+} */
 
 .madeby {
     margin-top: 70px;
