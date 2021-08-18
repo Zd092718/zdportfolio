@@ -5,8 +5,7 @@
 
 
 * {
-    /* color: rgb(56, 39, 39); */
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -21,12 +20,6 @@ header {
     border-radius: 25px;
 }
 
-header img {
-    width: 10%;
-    margin: 20px;
-    margin-bottom: -20px;
-    border-radius: 25px;
-}
 
 header h1{
     margin-left: 20px;
@@ -39,10 +32,11 @@ h2 {
 
 /* Targets nav bar */
 nav li{
-    font-size: larger;
     margin-bottom: 30px;
-    display: inline-flex;
-    position: relative;
+}
+
+.customnav li {
+    font-size: 20px;
 }
 
 /* nav li:hover {
@@ -60,34 +54,6 @@ header nav ul{
 #projects {
     margin-bottom: 20px;
 }
-
-#projects h2 {
-    text-align: center;
-} 
-
-/* Styles the project images to highlight on hover */
-figure img:hover {
-    opacity: 1;
-}
-
-/* Provides project images with base faded opacity and border */
-figure img {
-    opacity: .5;
-    border: 10px solid #3F826D;
-}
-
-/* Targets project photo captions */
-figure p {
-    position: absolute;
-    margin-top: 80px;
-    background-color: #3F826D;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 25px;
-    text-align: center;
-    margin-left: 10px;
-}
-
 /* Resizes project images */
 #project3 img{
     width: 50%;
@@ -107,8 +73,19 @@ figure p {
 }
 /* Targets About section */
 #about  {
-    background-color: #C03221;
     padding: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+#about img {
+    width: 10%;
+    margin: 20px;
+    margin-bottom: -20px;
+    border-radius: 25px;
+    display: inline-block;
+    position: relative
 }
 
 /* Targets Contact Me section */
@@ -131,17 +108,6 @@ footer {
     #project1 img {
         width: 75%;
     }
-    #projects h2 {
-        text-align: left;
-    }
-    figure p {
-        position: absolute;
-        margin-top: 20px;
-        background-color: #3F826D;
-        font-size: 15px;
-        border-radius: 25px;
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 426px) {
@@ -156,14 +122,12 @@ footer {
     #projects h2 {
         text-align: left;
     }
-    figure p {
-        position: absolute;
-        margin-top: 60px;
-        background-color: #3F826D;
-        font-size: 10px;
-        padding: 10px;
-        border-radius: 25px;
-        text-align: center;
-    }
 }
 
+.madeby {
+    margin-top: 70px;
+}
+
+.custfooter li {
+    font-size: 18px;
+}

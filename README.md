@@ -23,10 +23,11 @@ To see the code for the site:
 
 * HTML5
 * CSS3 
+* Materialize
 
 ### Preview Image
 
-![screenshot of page](./assets/screenshot.png)
+![screenshot of page](./assets/portfolioscreenshot.png)
 
 ## Contact
 
